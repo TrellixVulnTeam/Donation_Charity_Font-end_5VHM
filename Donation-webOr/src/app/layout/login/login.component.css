@@ -1,0 +1,28 @@
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    background-color: #f8f9fa;
+    padding: 30px 30px 30px 30px;
+}
+.lable-login{
+    text-align: center;
+}
+.container div{
+    padding-bottom: 20px;
+}
+.p-field *{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+input{
+    width: 60%;
+}
+.btn{
+    text-align: center;
+}
+p-button{
+    padding-right: 20px;
+    padding-left: 20px;
+}
