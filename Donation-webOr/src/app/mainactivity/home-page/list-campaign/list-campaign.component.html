@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="campaignItem grid" *ngFor="let item of listcampaign">
+        <div class="col-4">
+            <p-image src="{{item.image}}" alt="Image" width="100%"></p-image>
+        </div>
+        <div class="col-8 campaignInFo">
+            <div>{{item.name}}</div>
+            <div style="color:violet;">{{item.title}}</div>
+            <div>{{item.currentPrice}} VND raised of {{item.plan}} VND goal</div>
+            <div>Start date: {{item.startDate}}</div>
+            <div class="btnitem">
+                <button pButton type="button" label="View" [routerLink]="['/campaign']" routerLinkActive="router-link-active" ></button>
+                <button pButton type="button" label="Add activite" ></button>
+            </div>
+        </div>
+    </div>
+</div>

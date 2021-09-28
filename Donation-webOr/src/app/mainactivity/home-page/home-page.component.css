@@ -1,0 +1,29 @@
+.container{
+    background-image: url('../../../assets/image/wallpaper.jpg');
+    height:100%; 
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.info{
+    padding: 30px 30px 30px 30px;
+}
+.newCharity{
+    width: 100%;
+    height: 50%;
+}
+.newCharity button{
+    margin-left: 30%;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+.box-layout{
+    background-color: #f8f9fa;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: #58D3F7;
+    overflow:hidden;
+}

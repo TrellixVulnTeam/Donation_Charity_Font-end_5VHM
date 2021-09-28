@@ -1,0 +1,22 @@
+<div class="container grid">
+    <div class="col-12 image-campaign">
+        <p-image src="../../../assets/image/vacxin.png" alt="Image" width="100%"></p-image>
+    </div>
+    <div class="col-12">
+        Quỹ vaccine phòng chống Covid-19
+    </div>
+    <div class="col-12" style="color: violet;">
+        Vì một việt nam khoẻ mạnh
+    </div>
+    <div class="col-12">
+        Progress:
+        <p-progressBar [value]="value"></p-progressBar>
+        <p>
+            Goal: 60,000,000,000 VND
+        </p>
+    </div>
+    <div class="btnitem">
+        <button pButton type="button" label="View" [routerLink]="['/campaign']" routerLinkActive="router-link-active" ></button>
+        <button pButton type="button" label="Add activite"></button>
+    </div>
+</div>

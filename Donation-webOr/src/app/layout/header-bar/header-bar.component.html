@@ -1,6 +1,6 @@
 <!-- <p>header-bar works!</p> -->
-<p-menubar [model]="items">
+<p-menubar [model]="items" [style]="{'background-color': '#F2E0F7'}">
     <div>
-        <button type="button" pButton label="Login" icon="pi pi-power-off" style="margin-left:.25em"></button>
+        <button type="button" pButton label="Login" icon="pi pi-power-off" style="margin-left:.25em;" [routerLink]="['/login']" routerLinkActive="router-link-active" ></button>
     </div>
 </p-menubar>

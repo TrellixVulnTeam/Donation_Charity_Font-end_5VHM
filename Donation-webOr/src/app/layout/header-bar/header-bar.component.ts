@@ -13,8 +13,9 @@ export class HeaderBarComponent implements OnInit {
   ngOnInit(): void {
     this.items = [
       {
-        label:'Donation',
+        label:'Charity',
         icon:'pi pi-home',
+        routerLink:'/home',
       },
   ];
   }

@@ -1,0 +1,19 @@
+.container{
+    overflow: scroll;
+    height: 521px;
+    /* height: 100%; */
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+.campaignInFo div{
+    padding-bottom: 15px;
+}
+.btnitem{
+    text-align: end;
+    margin-top: 25px;
+}
+.btnitem button{
+    margin-left: 40px;
+    width: 150px;
+}
