@@ -19,6 +19,7 @@ import { ButtonModule } from 'primeng/button';
 import {PasswordModule} from 'primeng/password';
 import {ImageModule} from 'primeng/image';
 import {ProgressBarModule} from 'primeng/progressbar';
+import { AdminPageComponent } from './mainactivity/admin-page/admin-page.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import {ProgressBarModule} from 'primeng/progressbar';
     LeastCampaignComponent,
     CampaignPageComponent,
     CampaignDetailComponent,
+    AdminPageComponent,
   ],
   imports: [
     BrowserModule,
