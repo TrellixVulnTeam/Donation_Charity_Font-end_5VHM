@@ -1,7 +1,9 @@
+import { Organization } from "./organization.model";
+
 export class Campaign{
     campaignId!:number;
     campaignName!:string;
-    organizationId!: number;
+    organization!: Organization;
     description!: string;
     title!: string;
     dateCreate!: Date;
