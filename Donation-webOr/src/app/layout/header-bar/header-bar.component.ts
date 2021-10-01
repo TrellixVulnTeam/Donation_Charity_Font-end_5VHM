@@ -17,6 +17,28 @@ export class HeaderBarComponent implements OnInit {
         icon:'pi pi-home',
         routerLink:'/home',
       },
+      {
+        label:'Campaign',
+      },
+      {
+        label:'Manage team',
+        icon:'pi pi-users',
+      },
+      {
+        label:'Account',
+        icon:'pi pi-user',
+        items:[
+          {
+            label:'Your profile',
+            icon:'pi pi-user-edit',
+          },
+          {
+            label:'Logout',
+            icon:'pi pi-sign-out',
+            routerLink:'/login',
+          }
+        ]
+      },
   ];
   }
 
